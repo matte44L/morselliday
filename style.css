@@ -194,7 +194,7 @@ ul {
 .carousel-track {
   display: flex;
   gap: 1rem;
-  animation: scroll 35s linear infinite;
+  animation: scroll 39s linear infinite;
   will-change: transform;
 }
 
