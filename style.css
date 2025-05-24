@@ -378,36 +378,35 @@
       margin-top: -4rem;
     }
   
-.custom-caption-container {
-      position: absolute;
-      bottom: 20px;
-      right: 20px;
-      text-align: right;
-    }
+.arrow-caption-container {
+  text-align: right;
+  margin-top: 8px;
+}
 
-    .arrow-button {
-      background: none;
-      border: none;
-      font-size: 24px;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-      color: white;
-    }
+.arrow-button {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: #333;
+}
 
-    .arrow-button.open {
-      transform: rotate(90deg);
-    }
+.arrow-button.open {
+  transform: rotate(90deg);
+}
 
-    .caption-text {
-      display: none;
-      background: rgba(0, 0, 0, 0.7);
-      color: #fff;
-      padding: 10px;
-      border-radius: 5px;
-      margin-top: 10px;
-      max-width: 300px;
-    }
+.caption-text {
+  display: none;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: left;
+  margin-top: 5px;
+  max-width: 100%;
+}
 
-    .caption-text.visible {
-      display: block;
-    }
+.caption-text.visible {
+  display: block;
+}
