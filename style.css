@@ -48,7 +48,7 @@ section:not(.hero) {
   text-align: center;
   color: #fff;
   overflow: hidden;
-  background: linear-gradient(180deg, rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.9) 100%), 
+  background: linear-gradient(180deg, rgba(0,0,0,0.5) 40%, rgba(0,0,0,0.9) 100%), 
               url('https://picsum.photos/id/1033/1920/1080') no-repeat center center/cover;
   margin: 0;
   padding: 0;
