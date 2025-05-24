@@ -277,7 +277,7 @@ footer {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-1 * (360px + 0.8rem) * 10));
+    transform: translateX(calc(-1 * (320px + 0.7rem) * 10));
   }
 }
 
