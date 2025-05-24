@@ -378,3 +378,33 @@
       margin-top: -4rem;
     }
   }
+.arrow-container {
+      position: relative;
+      text-align: right;
+      margin: 20px;
+    }
+
+    .arrow-button {
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .arrow-button.open {
+      transform: rotate(90deg);
+    }
+
+    .caption {
+      display: none;
+      background-color: #f0f0f0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+      text-align: left;
+    }
+
+    .caption.visible {
+      display: block;
+    }
